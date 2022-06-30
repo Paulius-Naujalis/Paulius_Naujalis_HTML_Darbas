@@ -1,0 +1,66 @@
+@import './var.css';
+/* ========================== */
+/* Commons */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Commons end */
+/* ========================== */
+/* Header */
+
+header {
+    padding: 2rem 2rem 0 2rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header end */
+/* ========================== */
+/* Main */
+
+.main {
+    padding-left: 2rem;
+    display: flex;
+
+}
+.main-text {
+    padding-top: 4rem;
+}
+.main-text h5 {
+    color: var(--sub-color);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.main-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+}
+.main-bgc {
+    background-image: url(../img/graphic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20rem;
+}
+.main-btn {
+        border-radius: 20px;
+        padding: 1rem;
+        font-family: 'Avenir Next';
+        font-size: 1rem;
+        padding: .5rem 3rem;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(40deg, #ea220c,#ff6100, #ffc800);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+}
