@@ -4,6 +4,9 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+.space {
+    padding: 0 2rem;
+}
 
 /* Commons end */
 /* ========================== */
@@ -49,7 +52,7 @@ header {
 .main-bgc {
     background-image: url(../img/graphic.png);    background-size: cover;    
     background-repeat: no-repeat;    
-    background-position: -5rem -3rem;    
+    background-position: -5rem -2rem;   
     width: 30%;
 }
 .main-btn {
@@ -77,7 +80,8 @@ header {
 
 }
 .intro-block {
-    padding: 7.62rem 2rem 2rem 2rem;
+    padding-top: 7.62rem;
+    padding-bottom: 2rem;
 }
 .intro-block h2 {
     font-size: 2.5rem;
@@ -85,4 +89,30 @@ header {
 }
 .intro-block p {
     font-size: 1.25rem;
+}
+/* Intro end */
+/* ========================== */
+/* Companies */
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.c-img {
+    flex-basis: 40%;
+
+}
+.c-boom {
+    overflow: hidden;
+}
+.c-boom img{
+    width: 14.75rem;
+    color: var(--credit-color);
+}
+.c-opendoor {
+    display: none;
 }
