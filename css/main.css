@@ -1,6 +1,11 @@
 @import './var.css';
 /* ========================== */
 /* Commons */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -47,7 +52,7 @@ header {
 .main-text p {
     font-size: 20px;
     font-weight: 400;
-    color: #555555;
+    color: var(--common-color);
 } 
 .main-bgc {
     background-image: url(../img/graphic.png);    background-size: cover;    
@@ -110,9 +115,84 @@ header {
     overflow: hidden;
 }
 .c-boom img{
-    width: 14.75rem;
+    width: 14.25rem;
     color: var(--credit-color);
 }
 .c-opendoor {
     display: none;
 }
+
+/* Companies end */
+/* ========================== */
+/* NFT */
+
+
+/* Text */
+
+.nft-text h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+.nft-text p{
+    color: var(--common-color);
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.nft-text p a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Text end */
+
+
+/* Cards */
+
+.nft-card-block {
+    display: flex;
+}
+.nft-card {
+    background-color: #EEEEEE;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+}
+.nft-c-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+.nft-c-right {
+    text-align: right;
+}
+.nft-c-info li {
+    padding: 0.3rem;
+}
+.nft-li-series {
+    color: #FF8139;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+.nft-li-bid {
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+.nft-li-mid {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nft-li-bot {
+     font-size: 1.12rem;
+     color: var(--credit-color);
+}
+.nft-c-info ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* NFT end */
+/* ========================== */
+
