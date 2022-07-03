@@ -1,6 +1,5 @@
 @import './var.css';
-/* ========================== */
-/* Commons */
+/* ============COMMONS============== */
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -13,9 +12,9 @@ body {
     padding: 0 2rem;
 }
 
-/* Commons end */
-/* ========================== */
-/* Header */
+/* ===========COMMONS END=============== */
+
+/* =============HEADER============= */
 
 header {
     padding: 2rem 2rem 0 2rem;
@@ -29,9 +28,9 @@ header {
     display: none;
 }
 
-/* Header end */
-/* ========================== */
-/* Main */
+/* ============HEADER END============== */
+
+/* =============MAIN============= */
 
 .main {
     padding-left: 2rem;
@@ -77,9 +76,9 @@ header {
         box-shadow: 2px 1000px 1px #fff inset;
 }
 
-/* Main end */
-/* ========================== */
-/* Intro */
+/* ============MAIN END============== */
+
+/* =============INTRO============= */
 
 .intro {
     background-image: url(../img/background.svg);
@@ -100,15 +99,15 @@ header {
 .intro-block p {
     font-size: 1.25rem;
 }
-/* Intro END */
-/* ========================== */
-/* Companies */
+
+/* =============INTRO END============= */
 
 .companies {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 0 2rem;
     padding-top: 5rem;
     padding-bottom: 3rem;
 }
@@ -127,9 +126,7 @@ header {
     display: none;
 }
 
-/* Companies END */
-/* ========================== */
-/* NFT */
+/* =============NFT============= */
 
 .nft-text h2 {
     font-size: 2.5rem;
@@ -203,9 +200,9 @@ header {
     font-size: 0.75rem;
 }
 
-/* NFT END */
-/* ========================== */
-/* Line */
+/* =============NFT END============= */
+
+/* =============LINE============= */
 
 .foot-m-line {
     border: 1px solid #EEEEEE;
@@ -215,9 +212,9 @@ header {
     left: 0;
 }
 
-/* Line END */
-/* ========================== */
-/* Foot-main */
+/* ============LINE END============== */
+
+/* =============FOOT MAIN============= */
 
 .foot-main {
     display: flex;
@@ -265,9 +262,9 @@ header {
     align-self: flex-end;
 }
 
-/* Foot-main END */
-/* ========================== */
-/* Footer */
+/* ============FOOT MAIN END============== */
+
+/* ==============FOOTER============ */
 
 footer {
     padding: 2rem 2rem;
@@ -329,10 +326,19 @@ footer {
 .footer-rights p{
     color: var(--credit-color);
 }
-/* Footer END */
-/* ========================== */
+/* =============FOOTER END============= */
+
+
+
+
+/* ============= [DESKTOP] ============= */
+
 
 @media screen and (min-width: 429px) {
+
+
+
+/* ============COMMONS============== */
 
     body {
         padding: 2rem 4rem;
@@ -341,8 +347,10 @@ footer {
         padding: 0 4rem;
     }
 
-/* Navigation */
-    
+/* =============COMMONS END============= */   
+
+/* =============HEADER============= */
+
     nav {
         justify-content: space-between;
     }
@@ -359,10 +367,9 @@ footer {
         color: var(--sub-color);
     }
     
-    /* Navigation END */
-    /* ========================== */
-    /* Main */
+/* =============HEADER END============= */
 
+/* =============MAIN============= */
     .main {
         justify-content: space-evenly;
     }
@@ -379,17 +386,30 @@ footer {
         max-width: none;
     }
 
-/* Main END */
-/* ========================== */
-/* Intro */
+/* ============MAIN END============== */
 
+/* ===========INTRO=============== */
 .intro {
     border-radius: 1rem;
 }
 
-/* Intro END */
-/* ========================== */
-/* Companies */
+/* =============INTRO END============= */
 
+/* ============COMPANIES============== */
+
+    .companies {
+        justify-content: space-between;
+        padding: 6rem 0 6rem 0;
+}
+    .c-img {
+        flex-basis: content;
+}
+    .c-opendoor {
+        display: block;
+}
+
+/* ============COMPANIES END============== */
+
+/* =============NFT============= */
 
 }
