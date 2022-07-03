@@ -25,6 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.nav-link{
+    display: none;
+}
 
 /* Header end */
 /* ========================== */
@@ -327,3 +330,4 @@ footer {
 }
 /* Footer END */
 /* ========================== */
+@import './desktop.css';

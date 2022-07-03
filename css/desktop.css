@@ -1,0 +1,28 @@
+@import './var.css';
+
+@media screen and (min-width: 429px) {
+
+/* Navigation */
+
+    nav {
+        justify-content: space-between;
+    }
+    nav .icon{
+    display: none;
+    }
+    nav .nav-link {
+        display: block;
+    }
+    .nav-link a{
+    padding: 0 1.75rem;
+    }
+    .nav-pink {
+    color: var(--sub-color);
+    }
+
+/* Navigation END */
+/* ========================== */
+/* Main */
+
+
+}
