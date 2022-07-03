@@ -19,6 +19,9 @@ body {
 header {
     padding: 2rem 2rem 0 2rem;
 }
+.navigation i{
+    color: var(--credit-color);
+}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -244,7 +247,7 @@ header {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--common-color);
-    padding-top: 0.3rem;
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
 }
 
@@ -258,8 +261,12 @@ header {
     margin: 0;
 }
 .foot-img {
-    width: 45%;
-    align-self: flex-end;
+    background-image: url(../img/upsell-footer-image.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.85;
+    background-position-x: 1rem;
+    width: 50%;
 }
 
 /* ============FOOT MAIN END============== */
@@ -325,6 +332,11 @@ footer {
 
 .footer-rights p{
     color: var(--credit-color);
+    padding-left: 2rem;
+}
+
+.footer-hidden {
+    display: none;
 }
 /* =============FOOTER END============= */
 
@@ -370,19 +382,24 @@ footer {
 /* =============HEADER END============= */
 
 /* =============MAIN============= */
-    .main {
-        justify-content: space-evenly;
-    }
+
     .main-text {
         align-self: center;
-        width: 40%;
+        width: 50%;
     }
     .main-text h1 {
         font-size: 6rem;
     }
+    .main-text p {
+        width: 80%;
+    }
+    .main-img {
+        width: 50%;
+    }
     .main img {
-        position: static;
-        width:max-content;
+        
+        position: absolute;
+        width: max-content;
         max-width: none;
     }
 
@@ -410,6 +427,50 @@ footer {
 
 /* ============COMPANIES END============== */
 
-/* =============NFT============= */
+/* =============FOOTER MAIN============= */
+    .foot-m-line {
+        position: static;
+        display: block;
+    }
+    .foot-m-text {
+        width: 45%;
+}
+    .foot-m-line-center {
+    display: none;
+}
+    .foot-m-text p{
+        font-size: 1.25rem;
+        width: 90%;
+    }
+    .foot-img{
+        text-align: center;
+        width: 55%;
+        background-position-x: center;
 
+ }
+
+ /* =============FOOTMAIN END============= */
+
+ /* =============FOOTER============= */
+
+    footer {
+        padding: 6rem 2rem 2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-info {
+        flex-wrap: nowrap;
+        gap: 5rem;
+        display: flex;
+    }
+
+    /* =============FOOTER END============= */
+
+    .footer-rights {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-hidden {
+        display: block;
+    }
 }
