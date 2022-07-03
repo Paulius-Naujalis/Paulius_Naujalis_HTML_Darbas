@@ -36,6 +36,7 @@ header {
 .main {
     padding-left: 2rem;
     display: flex;
+    position: relative;
 
 }
 .main-text {
@@ -57,12 +58,12 @@ header {
     font-weight: 400;
     color: var(--common-color);
 } 
-.main-bgc {
-    background-image: url(../img/graphic.png);    background-size: cover;    
-    background-repeat: no-repeat;    
-    background-position: -5rem -2rem;   
-    width: 30%;
-    max-width: 25rem;
+.main img {
+    position: absolute;
+    width: 100%;
+    max-width: 30rem;
+    left: 50%;
+    min-width: 30rem;
 }
 .main-btn {
         border-radius: 30px;
@@ -330,4 +331,65 @@ footer {
 }
 /* Footer END */
 /* ========================== */
-@import './desktop.css';
+
+@media screen and (min-width: 429px) {
+
+    body {
+        padding: 2rem 4rem;
+    }
+    .space {
+        padding: 0 4rem;
+    }
+
+/* Navigation */
+    
+    nav {
+        justify-content: space-between;
+    }
+     nav .icon{
+        display: none;
+    }
+    nav .nav-link {
+        display: block;
+    }
+    .nav-link a{
+        padding: 0 1.75rem;
+    }
+    .nav-pink {
+        color: var(--sub-color);
+    }
+    
+    /* Navigation END */
+    /* ========================== */
+    /* Main */
+
+    .main {
+        justify-content: space-evenly;
+    }
+    .main-text {
+        align-self: center;
+        width: 40%;
+    }
+    .main-text h1 {
+        font-size: 6rem;
+    }
+    .main img {
+        position: static;
+        width:max-content;
+        max-width: none;
+    }
+
+/* Main END */
+/* ========================== */
+/* Intro */
+
+.intro {
+    border-radius: 1rem;
+}
+
+/* Intro END */
+/* ========================== */
+/* Companies */
+
+
+}

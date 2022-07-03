@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 429px) {
 
+
 /* Navigation */
 
     nav {
@@ -23,6 +24,13 @@
 /* Navigation END */
 /* ========================== */
 /* Main */
-
-
+.main {
+    justify-content: space-evenly;
+}
+.main-text {
+    align-self: center;
+}
+}
+.main-text h1 {
+    font-size: 6rem;
 }
