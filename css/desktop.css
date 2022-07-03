@@ -1,0 +1,36 @@
+@import './var.css';
+
+@media screen and (min-width: 429px) {
+
+
+/* Navigation */
+
+    nav {
+        justify-content: space-between;
+    }
+    nav .icon{
+    display: none;
+    }
+    nav .nav-link {
+        display: block;
+    }
+    .nav-link a{
+    padding: 0 1.75rem;
+    }
+    .nav-pink {
+    color: var(--sub-color);
+    }
+
+/* Navigation END */
+/* ========================== */
+/* Main */
+.main {
+    justify-content: space-evenly;
+}
+.main-text {
+    align-self: center;
+}
+}
+.main-text h1 {
+    font-size: 6rem;
+}

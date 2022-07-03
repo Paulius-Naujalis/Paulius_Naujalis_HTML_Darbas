@@ -1,0 +1,476 @@
+@import './var.css';
+/* ============COMMONS============== */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.space {
+    padding: 0 2rem;
+}
+
+/* ===========COMMONS END=============== */
+
+/* =============HEADER============= */
+
+header {
+    padding: 2rem 2rem 0 2rem;
+}
+.navigation i{
+    color: var(--credit-color);
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    display: none;
+}
+
+/* ============HEADER END============== */
+
+/* =============MAIN============= */
+
+.main {
+    padding-left: 2rem;
+    display: flex;
+    position: relative;
+
+}
+.main-text {
+    padding-top: 4rem;
+    width: 70%;
+}
+.main-text h5 {
+    color: var(--sub-color);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.main-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--common-color);
+} 
+.main img {
+    position: absolute;
+    width: 100%;
+    max-width: 30rem;
+    left: 50%;
+    min-width: 30rem;
+}
+.main-btn {
+        border-radius: 30px;
+        font-size: 1rem;
+        padding: 1.15rem 3.38rem;
+        font-weight: 600;
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(40deg, #ea220c,#ff6100, #ffe600);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+}
+
+/* ============MAIN END============== */
+
+/* =============INTRO============= */
+
+.intro {
+    background-image: url(../img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    margin-top: 5rem;
+
+}
+.intro-block {
+    padding-top: 7.62rem;
+    padding-bottom: 2rem;
+}
+.intro-block h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.intro-block p {
+    font-size: 1.25rem;
+}
+
+/* =============INTRO END============= */
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.c-img {
+    flex-basis: 40%;
+
+}
+.c-boom {
+    overflow: hidden;
+}
+.c-boom img{
+    width: 14.25rem;
+    color: var(--credit-color);
+}
+.c-opendoor {
+    display: none;
+}
+
+/* =============NFT============= */
+
+.nft-text h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+.nft-text p{
+    color: var(--common-color);
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.nft-text p a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.nft {
+    padding-bottom: 5rem;
+}
+.nft-card-block {
+    display: flex;
+}
+
+.nft-card {
+    background-color: #EEEEEE;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+}
+
+.nft-c-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+
+
+.nft-c-info ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nft-c-info li {
+    padding: 0.3rem;
+}
+
+.nft-li-series {
+    color: #FF8139;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.nft-li-mid {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nft-li-bot {
+    font-size: 1.12rem;
+    color: var(--credit-color);
+}
+
+.nft-c-right {
+    text-align: right;
+}
+
+.nft-li-bid {
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+/* =============NFT END============= */
+
+/* =============LINE============= */
+
+.foot-m-line {
+    border: 1px solid #EEEEEE;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/* ============LINE END============== */
+
+/* =============FOOT MAIN============= */
+
+.foot-main {
+    display: flex;
+    padding-left: 2rem;
+}
+.foot-m-text {
+    margin-top: 5rem;
+    width: 55%;
+    margin-bottom: 5rem;
+}
+.foot-m-text h5 {
+    color: var(--sub-color);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.foot-m-text h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.1rem;
+}
+
+.foot-m-text p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--common-color);
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.foot-m-text.hline {
+    border: 1px solid rgba(238, 238, 238, 0.5);
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+}
+.foot-img {
+    background-image: url(../img/upsell-footer-image.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.85;
+    background-position-x: 1rem;
+    width: 50%;
+}
+
+/* ============FOOT MAIN END============== */
+
+/* ==============FOOTER============ */
+
+footer {
+    padding: 2rem 2rem;
+}
+.footer-logo {
+    padding-top: 2rem;
+}
+
+.footer-logo p {
+    font-size: 1.25rem;
+    color: var(--common-color);
+    margin: 1.5rem 0
+}
+.social {
+    color: var(--credit-color);
+}
+
+.social i {
+    padding: 0 0.2rem;
+}
+
+.footer-info {
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-card {
+    flex-basis: 45%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-card h5 {
+    font-weight: 700;
+    color: var(--common-color);
+    text-transform: uppercase;
+    margin-bottom: 1.75rem;
+}
+
+.footer-card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-card li {
+    margin: 0.8rem 0;
+    color: var(--common-color);
+}
+
+.footer-card a:hover{
+    text-decoration: underline;
+}
+
+.footer-rights{
+    padding-top: 2rem;
+}
+
+.footer-rights p{
+    color: var(--credit-color);
+    padding-left: 2rem;
+}
+
+.footer-hidden {
+    display: none;
+}
+/* =============FOOTER END============= */
+
+
+
+
+/* ============= [DESKTOP] ============= */
+
+
+@media screen and (min-width: 429px) {
+
+
+
+/* ============COMMONS============== */
+
+    body {
+        padding: 2rem 4rem;
+    }
+    .space {
+        padding: 0 4rem;
+    }
+
+/* =============COMMONS END============= */   
+
+/* =============HEADER============= */
+
+    nav {
+        justify-content: space-between;
+    }
+     nav .icon{
+        display: none;
+    }
+    nav .nav-link {
+        display: block;
+    }
+    .nav-link a{
+        padding: 0 1.75rem;
+    }
+    .nav-pink {
+        color: var(--sub-color);
+    }
+    
+/* =============HEADER END============= */
+
+/* =============MAIN============= */
+
+    .main-text {
+        align-self: center;
+        width: 50%;
+    }
+    .main-text h1 {
+        font-size: 6rem;
+    }
+    .main-text p {
+        width: 80%;
+    }
+    .main-img {
+        width: 50%;
+    }
+    .main img {
+        
+        position: absolute;
+        width: max-content;
+        max-width: none;
+    }
+
+/* ============MAIN END============== */
+
+/* ===========INTRO=============== */
+.intro {
+    border-radius: 1rem;
+}
+
+/* =============INTRO END============= */
+
+/* ============COMPANIES============== */
+
+    .companies {
+        justify-content: space-between;
+        padding: 6rem 0 6rem 0;
+}
+    .c-img {
+        flex-basis: content;
+}
+    .c-opendoor {
+        display: block;
+}
+
+/* ============COMPANIES END============== */
+
+/* =============FOOTER MAIN============= */
+    .foot-m-line {
+        position: static;
+        display: block;
+    }
+    .foot-m-text {
+        width: 45%;
+}
+    .foot-m-line-center {
+    display: none;
+}
+    .foot-m-text p{
+        font-size: 1.25rem;
+        width: 90%;
+    }
+    .foot-img{
+        text-align: center;
+        width: 55%;
+        background-position-x: center;
+
+ }
+
+ /* =============FOOTMAIN END============= */
+
+ /* =============FOOTER============= */
+
+    footer {
+        padding: 6rem 2rem 2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-info {
+        flex-wrap: nowrap;
+        gap: 5rem;
+        display: flex;
+    }
+
+    /* =============FOOTER END============= */
+
+    .footer-rights {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-hidden {
+        display: block;
+    }
+}
