@@ -143,8 +143,6 @@ header {
     text-decoration: underline;
 }
 
-
-
 .nft {
     padding-bottom: 5rem;
 }
@@ -264,5 +262,68 @@ header {
 }
 
 /* Foot-main END */
+/* ========================== */
+/* Footer */
 
+footer {
+    padding: 2rem 2rem;
+}
+.footer-logo {
+    padding-top: 2rem;
+}
 
+.footer-logo p {
+    font-size: 1.25rem;
+    color: var(--common-color);
+    margin: 1.5rem 0
+}
+.social {
+    color: var(--credit-color);
+}
+
+.social i {
+    padding: 0 0.2rem;
+}
+
+.footer-info {
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-card {
+    flex-basis: 45%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-card h5 {
+    font-weight: 700;
+    color: var(--common-color);
+    text-transform: uppercase;
+    margin-bottom: 1.75rem;
+}
+
+.footer-card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-card li {
+    margin: 0.8rem 0;
+    color: var(--common-color);
+}
+
+.footer-card a:hover{
+    text-decoration: underline;
+}
+
+.footer-rights{
+    padding-top: 2rem;
+}
+
+.footer-rights p{
+    color: var(--credit-color);
+}
+/* Footer END */
+/* ========================== */
