@@ -59,6 +59,7 @@ header {
     background-repeat: no-repeat;    
     background-position: -5rem -2rem;   
     width: 30%;
+    max-width: 25rem;
 }
 .main-btn {
         border-radius: 30px;
@@ -95,7 +96,7 @@ header {
 .intro-block p {
     font-size: 1.25rem;
 }
-/* Intro end */
+/* Intro END */
 /* ========================== */
 /* Companies */
 
@@ -122,12 +123,9 @@ header {
     display: none;
 }
 
-/* Companies end */
+/* Companies END */
 /* ========================== */
 /* NFT */
-
-
-/* Text */
 
 .nft-text h2 {
     font-size: 2.5rem;
@@ -145,54 +143,126 @@ header {
     text-decoration: underline;
 }
 
-/* Text end */
 
 
-/* Cards */
-
+.nft {
+    padding-bottom: 5rem;
+}
 .nft-card-block {
     display: flex;
 }
+
 .nft-card {
     background-color: #EEEEEE;
     border-radius: 0.8rem;
     margin-right: 2rem;
 }
+
 .nft-c-info {
     display: flex;
     justify-content: space-evenly;
     padding-top: 0.5rem;
 }
-.nft-c-right {
-    text-align: right;
-}
-.nft-c-info li {
-    padding: 0.3rem;
-}
-.nft-li-series {
-    color: #FF8139;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-}
-.nft-li-bid {
-    color: #777777;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-}
-.nft-li-mid {
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-.nft-li-bot {
-     font-size: 1.12rem;
-     color: var(--credit-color);
-}
+
+
 .nft-c-info ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-/* NFT end */
+.nft-c-info li {
+    padding: 0.3rem;
+}
+
+.nft-li-series {
+    color: #FF8139;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.nft-li-mid {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nft-li-bot {
+    font-size: 1.12rem;
+    color: var(--credit-color);
+}
+
+.nft-c-right {
+    text-align: right;
+}
+
+.nft-li-bid {
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+/* NFT END */
 /* ========================== */
+/* Line */
+
+.foot-m-line {
+    border: 1px solid #EEEEEE;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/* Line END */
+/* ========================== */
+/* Foot-main */
+
+.foot-main {
+    display: flex;
+    padding-left: 2rem;
+}
+.foot-m-text {
+    margin-top: 5rem;
+    width: 55%;
+    margin-bottom: 5rem;
+}
+.foot-m-text h5 {
+    color: var(--sub-color);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.foot-m-text h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.1rem;
+}
+
+.foot-m-text p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--common-color);
+    padding-top: 0.3rem;
+    padding-bottom: 2rem;
+}
+
+.foot-m-text.hline {
+    border: 1px solid rgba(238, 238, 238, 0.5);
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+}
+.foot-img {
+    width: 45%;
+    align-self: flex-end;
+}
+
+/* Foot-main END */
+
 
